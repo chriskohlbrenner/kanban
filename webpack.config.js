@@ -11,11 +11,19 @@ const PATHS = {
 
 var common = {
   entry: PATHS.app,
+  resolve: {
+    extensions: ['', '.js', '.jsx']
+  },
   module: {
     loaders: [
       {
         test: /\.css$/,
         loader: 'style!css',
+        include: PATHS.app
+      },
+      {
+        test: /\.jsx?$/,
+        loaders: ['babel'],
         include: PATHS.app
       }
     ]
