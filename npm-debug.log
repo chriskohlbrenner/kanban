@@ -1,28 +1,183 @@
 0 info it worked if it ends with ok
 1 verbose cli [ '/Users/cek/.nvm/v0.10.32/bin/node',
 1 verbose cli   '/Users/cek/.nvm/v0.10.32/bin/npm',
-1 verbose cli   'start' ]
+1 verbose cli   'i',
+1 verbose cli   'node-uuid',
+1 verbose cli   '--save' ]
 2 info using npm@1.4.28
 3 info using node@v0.10.32
-4 verbose run-script [ 'prestart', 'start', 'poststart' ]
-5 info prestart kanban_app@0.0.0
-6 info start kanban_app@0.0.0
-7 verbose unsafe-perm in lifecycle true
-8 info kanban_app@0.0.0 Failed to exec start script
-9 error kanban_app@0.0.0 start: `webpack-dev-server`
-9 error Exit status 8
-10 error Failed at the kanban_app@0.0.0 start script.
-10 error This is most likely a problem with the kanban_app package,
-10 error not with npm itself.
-10 error Tell the author that this fails on your system:
-10 error     webpack-dev-server
-10 error You can get their info via:
-10 error     npm owner ls kanban_app
-10 error There is likely additional logging output above.
-11 error System Darwin 13.4.0
-12 error command "/Users/cek/.nvm/v0.10.32/bin/node" "/Users/cek/.nvm/v0.10.32/bin/npm" "start"
-13 error cwd /Users/cek/Documents/Projects/kanban_app
-14 error node -v v0.10.32
-15 error npm -v 1.4.28
-16 error code ELIFECYCLE
-17 verbose exit [ 1, true ]
+4 warn package.json kanban_app@0.0.0 No repository field.
+5 warn package.json kanban_app@0.0.0 No README data
+6 verbose readDependencies using package.json deps
+7 verbose cache add [ 'node-uuid', null ]
+8 verbose cache add name=undefined spec="node-uuid" args=["node-uuid",null]
+9 verbose parsed url { protocol: null,
+9 verbose parsed url   slashes: null,
+9 verbose parsed url   auth: null,
+9 verbose parsed url   host: null,
+9 verbose parsed url   port: null,
+9 verbose parsed url   hostname: null,
+9 verbose parsed url   hash: null,
+9 verbose parsed url   search: null,
+9 verbose parsed url   query: null,
+9 verbose parsed url   pathname: 'node-uuid',
+9 verbose parsed url   path: 'node-uuid',
+9 verbose parsed url   href: 'node-uuid' }
+10 silly lockFile b284863e-node-uuid node-uuid
+11 verbose lock node-uuid /Users/cek/.npm/b284863e-node-uuid.lock
+12 silly lockFile b284863e-node-uuid node-uuid
+13 silly lockFile b284863e-node-uuid node-uuid
+14 verbose addNamed [ 'node-uuid', '' ]
+15 verbose addNamed [ null, '*' ]
+16 silly lockFile b4eb10d7-node-uuid node-uuid@
+17 verbose lock node-uuid@ /Users/cek/.npm/b4eb10d7-node-uuid.lock
+18 silly addNameRange { name: 'node-uuid', range: '*', hasData: false }
+19 verbose request where is /node-uuid
+20 verbose request registry https://registry.npmjs.org/
+21 verbose request id d2ed10ce177cf8da
+22 verbose url raw /node-uuid
+23 verbose url resolving [ 'https://registry.npmjs.org/', './node-uuid' ]
+24 verbose url resolved https://registry.npmjs.org/node-uuid
+25 verbose request where is https://registry.npmjs.org/node-uuid
+26 info trying registry request attempt 1 at 08:43:00
+27 verbose etag "97BT4PYT2KTXB292Y64WR3OR5"
+28 http GET https://registry.npmjs.org/node-uuid
+29 http 304 https://registry.npmjs.org/node-uuid
+30 silly registry.get cb [ 304,
+30 silly registry.get   { date: 'Mon, 14 Dec 2015 13:43:00 GMT',
+30 silly registry.get     via: '1.1 varnish',
+30 silly registry.get     'cache-control': 'max-age=60',
+30 silly registry.get     etag: '"97BT4PYT2KTXB292Y64WR3OR5"',
+30 silly registry.get     age: '50',
+30 silly registry.get     connection: 'keep-alive',
+30 silly registry.get     'x-served-by': 'cache-iad2143-IAD',
+30 silly registry.get     'x-cache': 'HIT',
+30 silly registry.get     'x-cache-hits': '3',
+30 silly registry.get     'x-timer': 'S1450100580.675943,VS0,VE0',
+30 silly registry.get     vary: 'Accept' } ]
+31 verbose etag https://registry.npmjs.org/node-uuid from cache
+32 silly addNameRange number 2 { name: 'node-uuid', range: '*', hasData: true }
+33 silly addNameRange versions [ 'node-uuid',
+33 silly addNameRange   [ '1.2.0',
+33 silly addNameRange     '1.3.0',
+33 silly addNameRange     '1.3.1',
+33 silly addNameRange     '1.3.2',
+33 silly addNameRange     '1.1.0',
+33 silly addNameRange     '1.0.0',
+33 silly addNameRange     '1.3.3',
+33 silly addNameRange     '1.4.0',
+33 silly addNameRange     '1.4.1',
+33 silly addNameRange     '1.4.2',
+33 silly addNameRange     '1.4.3',
+33 silly addNameRange     '1.4.6',
+33 silly addNameRange     '1.4.7' ] ]
+34 verbose addNamed [ 'node-uuid', '1.4.7' ]
+35 verbose addNamed [ '1.4.7', '1.4.7' ]
+36 silly lockFile f9bba481-node-uuid-1-4-7 node-uuid@1.4.7
+37 verbose lock node-uuid@1.4.7 /Users/cek/.npm/f9bba481-node-uuid-1-4-7.lock
+38 silly lockFile f9bba481-node-uuid-1-4-7 node-uuid@1.4.7
+39 silly lockFile f9bba481-node-uuid-1-4-7 node-uuid@1.4.7
+40 silly lockFile b4eb10d7-node-uuid node-uuid@
+41 silly lockFile b4eb10d7-node-uuid node-uuid@
+42 silly resolved [ { author: { name: 'Robert Kieffer', email: 'robert@broofa.com' },
+42 silly resolved     bin: { uuid: './bin/uuid' },
+42 silly resolved     bugs: { url: 'https://github.com/broofa/node-uuid/issues' },
+42 silly resolved     contributors: [ [Object], [Object] ],
+42 silly resolved     dependencies: {},
+42 silly resolved     description: 'Rigorous implementation of RFC4122 (v1 and v4) UUIDs.',
+42 silly resolved     devDependencies: { nyc: '^2.2.0' },
+42 silly resolved     directories: {},
+42 silly resolved     homepage: 'https://github.com/broofa/node-uuid',
+42 silly resolved     installable: true,
+42 silly resolved     keywords: [ 'guid', 'rfc4122', 'uuid' ],
+42 silly resolved     lib: '.',
+42 silly resolved     licenses: [ [Object] ],
+42 silly resolved     main: './uuid.js',
+42 silly resolved     maintainers: [ [Object], [Object] ],
+42 silly resolved     name: 'node-uuid',
+42 silly resolved     optionalDependencies: {},
+42 silly resolved     repository:
+42 silly resolved      { type: 'git',
+42 silly resolved        url: 'git+https://github.com/broofa/node-uuid.git' },
+42 silly resolved     scripts:
+42 silly resolved      { coverage: 'nyc npm test && nyc report',
+42 silly resolved        test: 'node test/test.js' },
+42 silly resolved     url: 'http://github.com/broofa/node-uuid',
+42 silly resolved     version: '1.4.7',
+42 silly resolved     gitHead: '309512573ec1c60143c257157479a20f7f1f51cd',
+42 silly resolved     _id: 'node-uuid@1.4.7',
+42 silly resolved     _shasum: '6da5a17668c4b3dd59623bda11cf7fa4c1f60a6f',
+42 silly resolved     _from: 'node-uuid@',
+42 silly resolved     _npmVersion: '3.3.6',
+42 silly resolved     _nodeVersion: '5.0.0',
+42 silly resolved     _npmUser: { name: 'coolaj86', email: 'coolaj86@gmail.com' },
+42 silly resolved     dist:
+42 silly resolved      { shasum: '6da5a17668c4b3dd59623bda11cf7fa4c1f60a6f',
+42 silly resolved        tarball: 'http://registry.npmjs.org/node-uuid/-/node-uuid-1.4.7.tgz' },
+42 silly resolved     _resolved: 'https://registry.npmjs.org/node-uuid/-/node-uuid-1.4.7.tgz',
+42 silly resolved     readme: 'ERROR: No README data found!' } ]
+43 info install node-uuid@1.4.7 into /Users/cek/Documents/Projects/kanban_app
+44 info installOne node-uuid@1.4.7
+45 verbose node_modules/node-uuid unbuild
+46 verbose tar unpack /Users/cek/.npm/node-uuid/1.4.7/package.tgz
+47 silly lockFile 8d8cda4b-anban-app-node-modules-node-uuid tar:///Users/cek/Documents/Projects/kanban_app/node_modules/node-uuid
+48 verbose lock tar:///Users/cek/Documents/Projects/kanban_app/node_modules/node-uuid /Users/cek/.npm/8d8cda4b-anban-app-node-modules-node-uuid.lock
+49 silly lockFile 3aac3325--npm-node-uuid-1-4-7-package-tgz tar:///Users/cek/.npm/node-uuid/1.4.7/package.tgz
+50 verbose lock tar:///Users/cek/.npm/node-uuid/1.4.7/package.tgz /Users/cek/.npm/3aac3325--npm-node-uuid-1-4-7-package-tgz.lock
+51 silly gunzTarPerm modes [ '755', '644' ]
+52 silly gunzTarPerm extractEntry package.json
+53 silly gunzTarPerm extractEntry .npmignore
+54 silly gunzTarPerm extractEntry README.md
+55 silly gunzTarPerm extractEntry uuid.js
+56 silly gunzTarPerm extractEntry LICENSE.md
+57 silly gunzTarPerm extractEntry benchmark/README.md
+58 silly gunzTarPerm extractEntry benchmark/benchmark.js
+59 silly gunzTarPerm extractEntry benchmark/bench.gnu
+60 silly gunzTarPerm extractEntry benchmark/bench.sh
+61 silly gunzTarPerm extractEntry benchmark/benchmark-native.c
+62 silly gunzTarPerm extractEntry bin/uuid
+63 silly gunzTarPerm extractEntry bower.json
+64 silly gunzTarPerm extractEntry component.json
+65 silly gunzTarPerm extractEntry test/compare_v1.js
+66 silly gunzTarPerm extractEntry test/test.js
+67 silly gunzTarPerm extractEntry test/test.html
+68 silly lockFile 8d8cda4b-anban-app-node-modules-node-uuid tar:///Users/cek/Documents/Projects/kanban_app/node_modules/node-uuid
+69 silly lockFile 8d8cda4b-anban-app-node-modules-node-uuid tar:///Users/cek/Documents/Projects/kanban_app/node_modules/node-uuid
+70 silly lockFile 3aac3325--npm-node-uuid-1-4-7-package-tgz tar:///Users/cek/.npm/node-uuid/1.4.7/package.tgz
+71 silly lockFile 3aac3325--npm-node-uuid-1-4-7-package-tgz tar:///Users/cek/.npm/node-uuid/1.4.7/package.tgz
+72 info preinstall node-uuid@1.4.7
+73 verbose readDependencies using package.json deps
+74 verbose readDependencies using package.json deps
+75 silly resolved []
+76 verbose about to build /Users/cek/Documents/Projects/kanban_app/node_modules/node-uuid
+77 info build /Users/cek/Documents/Projects/kanban_app/node_modules/node-uuid
+78 verbose linkStuff [ false,
+78 verbose linkStuff   false,
+78 verbose linkStuff   false,
+78 verbose linkStuff   '/Users/cek/Documents/Projects/kanban_app/node_modules' ]
+79 info linkStuff node-uuid@1.4.7
+80 verbose linkBins node-uuid@1.4.7
+81 verbose link bins [ { uuid: './bin/uuid' },
+81 verbose link bins   '/Users/cek/Documents/Projects/kanban_app/node_modules/.bin',
+81 verbose link bins   false ]
+82 verbose linkMans node-uuid@1.4.7
+83 verbose rebuildBundles node-uuid@1.4.7
+84 info install node-uuid@1.4.7
+85 info postinstall node-uuid@1.4.7
+86 verbose saving { 'node-uuid': '^1.4.7' }
+87 error Error: EACCES, open '/Users/cek/Documents/Projects/kanban_app/package.json'
+87 error  { [Error: EACCES, open '/Users/cek/Documents/Projects/kanban_app/package.json']
+87 error   errno: 3,
+87 error   code: 'EACCES',
+87 error   path: '/Users/cek/Documents/Projects/kanban_app/package.json' }
+88 error Please try running this command again as root/Administrator.
+89 error System Darwin 13.4.0
+90 error command "/Users/cek/.nvm/v0.10.32/bin/node" "/Users/cek/.nvm/v0.10.32/bin/npm" "i" "node-uuid" "--save"
+91 error cwd /Users/cek/Documents/Projects/kanban_app
+92 error node -v v0.10.32
+93 error npm -v 1.4.28
+94 error path /Users/cek/Documents/Projects/kanban_app/package.json
+95 error code EACCES
+96 error errno 3
+97 error stack Error: EACCES, open '/Users/cek/Documents/Projects/kanban_app/package.json'
+98 verbose exit [ 3, true ]
