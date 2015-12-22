@@ -15,7 +15,7 @@ export default class Note extends React.Component {
 
   render() {
     const editing = this.state.editing;
-
+    debugger
     return (
       <div>
         {editing ? this.renderEdit(): this.renderTask()}
@@ -51,5 +51,8 @@ export default class Note extends React.Component {
 
   finishEdit(e) {
     this.props.onEdit(e.target.value);
+    this.setState({
+      editing: false
+    });
   }
 }
