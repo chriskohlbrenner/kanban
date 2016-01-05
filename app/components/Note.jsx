@@ -15,7 +15,7 @@ export default class Note extends React.Component {
 
   render() {
     const editing = this.state.editing;
-    debugger
+
     return (
       <div>
         {editing ? this.renderEdit(): this.renderTask()}
@@ -34,7 +34,18 @@ export default class Note extends React.Component {
   }
 
   renderTask() {
-    return <div onClick={this.edit.bind(this)}>{this.props.task}</div>;
+    const onDelete = this.props.onDelete;
+
+    return (
+      <div onClick={this.edit.bind(this)}>
+        <span className="task">{this.props.task}</span>
+        {onDelete ? this.renderDelete() : null }
+      </div>
+    );
+  }
+
+  renderDelete() {
+    return <button className="delete" onClick={this.props.onDelete.bind(this)}>x</button>;
   }
 
   edit() {
