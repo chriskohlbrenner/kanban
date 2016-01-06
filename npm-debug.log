@@ -1,0 +1,739 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/cek/.nvm/v0.10.32/bin/node',
+1 verbose cli   '/Users/cek/.nvm/v0.10.32/bin/npm',
+1 verbose cli   'i',
+1 verbose cli   'alt',
+1 verbose cli   '--save' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.32
+4 warn package.json kanban_app@0.0.0 No repository field.
+5 warn package.json kanban_app@0.0.0 No README data
+6 verbose readDependencies using package.json deps
+7 verbose cache add [ 'alt', null ]
+8 verbose cache add name=undefined spec="alt" args=["alt",null]
+9 verbose parsed url { protocol: null,
+9 verbose parsed url   slashes: null,
+9 verbose parsed url   auth: null,
+9 verbose parsed url   host: null,
+9 verbose parsed url   port: null,
+9 verbose parsed url   hostname: null,
+9 verbose parsed url   hash: null,
+9 verbose parsed url   search: null,
+9 verbose parsed url   query: null,
+9 verbose parsed url   pathname: 'alt',
+9 verbose parsed url   path: 'alt',
+9 verbose parsed url   href: 'alt' }
+10 silly lockFile 325562c7-alt alt
+11 verbose lock alt /Users/cek/.npm/325562c7-alt.lock
+12 silly lockFile 325562c7-alt alt
+13 silly lockFile 325562c7-alt alt
+14 verbose addNamed [ 'alt', '' ]
+15 verbose addNamed [ null, '*' ]
+16 silly lockFile 0b3b1ed3-alt alt@
+17 verbose lock alt@ /Users/cek/.npm/0b3b1ed3-alt.lock
+18 silly addNameRange { name: 'alt', range: '*', hasData: false }
+19 verbose request where is /alt
+20 verbose request registry https://registry.npmjs.org/
+21 verbose request id 9c8271fa36b18501
+22 verbose url raw /alt
+23 verbose url resolving [ 'https://registry.npmjs.org/', './alt' ]
+24 verbose url resolved https://registry.npmjs.org/alt
+25 verbose request where is https://registry.npmjs.org/alt
+26 info trying registry request attempt 1 at 09:01:19
+27 http GET https://registry.npmjs.org/alt
+28 http 200 https://registry.npmjs.org/alt
+29 silly registry.get cb [ 200,
+29 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+29 silly registry.get     etag: '"U8YWCQS0ZVHEOFGDC98VB7SL"',
+29 silly registry.get     'content-type': 'application/json',
+29 silly registry.get     'cache-control': 'max-age=300',
+29 silly registry.get     'content-length': '191830',
+29 silly registry.get     'accept-ranges': 'bytes',
+29 silly registry.get     date: 'Wed, 06 Jan 2016 14:01:20 GMT',
+29 silly registry.get     via: '1.1 varnish',
+29 silly registry.get     age: '0',
+29 silly registry.get     connection: 'keep-alive',
+29 silly registry.get     'x-served-by': 'cache-iad2144-IAD',
+29 silly registry.get     'x-cache': 'HIT',
+29 silly registry.get     'x-cache-hits': '1',
+29 silly registry.get     'x-timer': 'S1452088880.320270,VS0,VE385',
+29 silly registry.get     vary: 'Accept' } ]
+30 silly addNameRange number 2 { name: 'alt', range: '*', hasData: true }
+31 silly addNameRange versions [ 'alt',
+31 silly addNameRange   [ '0.1.0',
+31 silly addNameRange     '0.2.0',
+31 silly addNameRange     '0.3.0',
+31 silly addNameRange     '0.4.0',
+31 silly addNameRange     '0.5.0',
+31 silly addNameRange     '0.6.0',
+31 silly addNameRange     '0.7.0',
+31 silly addNameRange     '0.8.0',
+31 silly addNameRange     '0.9.0',
+31 silly addNameRange     '0.10.0',
+31 silly addNameRange     '0.10.1',
+31 silly addNameRange     '0.10.2',
+31 silly addNameRange     '0.11.0',
+31 silly addNameRange     '0.12.0',
+31 silly addNameRange     '0.12.2',
+31 silly addNameRange     '0.12.3',
+31 silly addNameRange     '0.13.0',
+31 silly addNameRange     '0.13.1',
+31 silly addNameRange     '0.13.2',
+31 silly addNameRange     '0.13.3',
+31 silly addNameRange     '0.13.4',
+31 silly addNameRange     '0.13.5',
+31 silly addNameRange     '0.13.7',
+31 silly addNameRange     '0.13.8',
+31 silly addNameRange     '0.13.9',
+31 silly addNameRange     '0.13.10',
+31 silly addNameRange     '0.14.0',
+31 silly addNameRange     '0.13.11',
+31 silly addNameRange     '0.14.1',
+31 silly addNameRange     '0.13.13',
+31 silly addNameRange     '0.14.2',
+31 silly addNameRange     '0.14.3',
+31 silly addNameRange     '0.14.4',
+31 silly addNameRange     '0.14.5',
+31 silly addNameRange     '0.15.0',
+31 silly addNameRange     '0.15.1',
+31 silly addNameRange     '0.15.2',
+31 silly addNameRange     '0.15.3',
+31 silly addNameRange     '0.15.4',
+31 silly addNameRange     '0.15.5',
+31 silly addNameRange     '0.15.6',
+31 silly addNameRange     '0.16.0',
+31 silly addNameRange     '0.16.1',
+31 silly addNameRange     '0.16.2',
+31 silly addNameRange     '0.17.0-alpha1',
+31 silly addNameRange     '0.16.3',
+31 silly addNameRange     '0.16.4',
+31 silly addNameRange     '0.16.5',
+31 silly addNameRange     '0.16.6',
+31 silly addNameRange     '0.16.7',
+31 silly addNameRange     '0.16.8',
+31 silly addNameRange     '0.16.9',
+31 silly addNameRange     '0.16.10',
+31 silly addNameRange     '0.17.0',
+31 silly addNameRange     '0.17.1',
+31 silly addNameRange     '0.17.2',
+31 silly addNameRange     '0.17.3',
+31 silly addNameRange     '0.17.4',
+31 silly addNameRange     '0.17.5',
+31 silly addNameRange     '0.17.6',
+31 silly addNameRange     '0.17.7',
+31 silly addNameRange     '0.17.8',
+31 silly addNameRange     '0.17.9',
+31 silly addNameRange     '0.18.0',
+31 silly addNameRange     '0.18.1' ] ]
+32 verbose addNamed [ 'alt', '0.18.1' ]
+33 verbose addNamed [ '0.18.1', '0.18.1' ]
+34 silly lockFile 1ece8f08-alt-0-18-1 alt@0.18.1
+35 verbose lock alt@0.18.1 /Users/cek/.npm/1ece8f08-alt-0-18-1.lock
+36 silly lockFile 32f8bc06-try-npmjs-org-alt-alt-0-18-1-tgz https://registry.npmjs.org/alt/-/alt-0.18.1.tgz
+37 verbose lock https://registry.npmjs.org/alt/-/alt-0.18.1.tgz /Users/cek/.npm/32f8bc06-try-npmjs-org-alt-alt-0-18-1-tgz.lock
+38 verbose addRemoteTarball [ 'https://registry.npmjs.org/alt/-/alt-0.18.1.tgz',
+38 verbose addRemoteTarball   'db23246aa7c4e15f4b3f2eb94896d97541574cde' ]
+39 info retry fetch attempt 1 at 09:01:20
+40 verbose fetch to= /var/folders/x0/7x68ytz12gz_tfxc5yr9j5lm0000gn/T/npm-88811-xrIlvVyP/registry.npmjs.org/alt/-/alt-0.18.1.tgz
+41 http GET https://registry.npmjs.org/alt/-/alt-0.18.1.tgz
+42 http 200 https://registry.npmjs.org/alt/-/alt-0.18.1.tgz
+43 silly lockFile 32f8bc06-try-npmjs-org-alt-alt-0-18-1-tgz https://registry.npmjs.org/alt/-/alt-0.18.1.tgz
+44 silly lockFile 32f8bc06-try-npmjs-org-alt-alt-0-18-1-tgz https://registry.npmjs.org/alt/-/alt-0.18.1.tgz
+45 silly lockFile 1ece8f08-alt-0-18-1 alt@0.18.1
+46 silly lockFile 1ece8f08-alt-0-18-1 alt@0.18.1
+47 silly lockFile 0b3b1ed3-alt alt@
+48 silly lockFile 0b3b1ed3-alt alt@
+49 silly resolved [ { name: 'alt',
+49 silly resolved     version: '0.18.1',
+49 silly resolved     description: 'A flux implementation',
+49 silly resolved     main: 'lib',
+49 silly resolved     dependencies: { flux: '2.0.3', 'is-promise': '2.1.0', transmitter: '1.1.0' },
+49 silly resolved     devDependencies:
+49 silly resolved      { 'alt-search-docs': '1.0.6',
+49 silly resolved        babel: '5.8.23',
+49 silly resolved        'babel-core': '5.8.24',
+49 silly resolved        'babel-eslint': '4.1.1',
+49 silly resolved        'babel-loader': '5.3.2',
+49 silly resolved        babelify: '6.3.0',
+49 silly resolved        chai: '^2.3.0',
+49 silly resolved        coveralls: '2.11.4',
+49 silly resolved        envify: '^3.4.0',
+49 silly resolved        'es6-promise': '^2.1.1',
+49 silly resolved        eslint: '1.4.1',
+49 silly resolved        'eslint-config-airbnb': '0.0.8',
+49 silly resolved        'eslint-plugin-react': '2.5.2',
+49 silly resolved        ghooks: '^0.3.2',
+49 silly resolved        immutable: '^3.7.2',
+49 silly resolved        iso: '^4.1.0',
+49 silly resolved        istanbul: '0.3.19',
+49 silly resolved        jsdom: '6.3.0',
+49 silly resolved        lunr: '^0.5.9',
+49 silly resolved        mocha: '^2.2.4',
+49 silly resolved        'object-assign': '^2.0.0',
+49 silly resolved        react: '0.14.0',
+49 silly resolved        'react-addons-test-utils': '0.14.0',
+49 silly resolved        'react-dom': '0.14.0',
+49 silly resolved        rimraf: '^2.3.2',
+49 silly resolved        sinon: '^1.14.0',
+49 silly resolved        webpack: '^1.9.12' },
+49 silly resolved     repository: { type: 'git', url: 'https://github.com/goatslacker/alt.git' },
+49 silly resolved     authors:
+49 silly resolved      [ 'Josh Perez <josh@goatslacker.com>',
+49 silly resolved        'Jonathan Lehman <jonathan.lehman91@gmail.com>' ],
+49 silly resolved     license: 'MIT',
+49 silly resolved     scripts:
+49 silly resolved      { build: 'npm run clean && npm run transpile && npm run build-alt-browser',
+49 silly resolved        'build-alt-browser': 'webpack --config dist.config.js && webpack -p --config dist.min.config.js',
+49 silly resolved        clean: 'rimraf lib',
+49 silly resolved        coverage: 'npm run transpile-cover && istanbul cover node_modules/mocha/bin/_mocha -- -u exports -R tap --require ./test/babel test',
+49 silly resolved        lint: 'eslint src components',
+49 silly resolved        postversion: 'git push && git push --tags',
+49 silly resolved        prepublish: 'npm run lint && npm run build',
+49 silly resolved        pretest: 'npm run clean && npm run transpile',
+49 silly resolved        preversion: 'npm run clean && npm run lint',
+49 silly resolved        release: 'npm run build && mversion patch -m',
+49 silly resolved        size: 'npm run transpile; browserify flux.js > flux-build.js; uglifyjs -m -c \'comparisons=false,keep_fargs=true,unsafe=true,unsafe_comps=true,warnings=false\' flux-build.js  > flux-build.min.js',
+49 silly resolved        test: 'npm run test-node',
+49 silly resolved        'test-browser': 'browserify test/browser/index.js -t babelify --outfile test/browser/tests.js',
+49 silly resolved        'test-node': 'mocha -u exports -R nyan --require ./test/babel test',
+49 silly resolved        transpile: 'babel src --out-dir lib',
+49 silly resolved        'transpile-cover': 'babel src --out-dir lib -r',
+49 silly resolved        version: 'npm run build' },
+49 silly resolved     files:
+49 silly resolved      [ 'src',
+49 silly resolved        'lib',
+49 silly resolved        'scripts',
+49 silly resolved        'typings',
+49 silly resolved        'dist',
+49 silly resolved        'docs',
+49 silly resolved        'guides',
+49 silly resolved        'README.md' ],
+49 silly resolved     keywords: [ 'alt', 'es6', 'flow', 'flux', 'react', 'unidirectional' ],
+49 silly resolved     config: { ghooks: [Object] },
+49 silly resolved     gitHead: 'ab25abec2316571ba2b05acc21e3a23f4eb800aa',
+49 silly resolved     bugs: { url: 'https://github.com/goatslacker/alt/issues' },
+49 silly resolved     homepage: 'https://github.com/goatslacker/alt',
+49 silly resolved     _id: 'alt@0.18.1',
+49 silly resolved     _shasum: 'db23246aa7c4e15f4b3f2eb94896d97541574cde',
+49 silly resolved     _from: 'alt@',
+49 silly resolved     _npmVersion: '2.14.2',
+49 silly resolved     _nodeVersion: '4.0.0',
+49 silly resolved     _npmUser: { name: 'goatslacker', email: 'josh@goatslacker.com' },
+49 silly resolved     maintainers: [ [Object] ],
+49 silly resolved     dist:
+49 silly resolved      { shasum: 'db23246aa7c4e15f4b3f2eb94896d97541574cde',
+49 silly resolved        tarball: 'http://registry.npmjs.org/alt/-/alt-0.18.1.tgz' },
+49 silly resolved     directories: {},
+49 silly resolved     _resolved: 'https://registry.npmjs.org/alt/-/alt-0.18.1.tgz' } ]
+50 info install alt@0.18.1 into /Users/cek/Documents/Projects/kanban_app
+51 info installOne alt@0.18.1
+52 verbose node_modules/alt unbuild
+53 verbose tar unpack /Users/cek/.npm/alt/0.18.1/package.tgz
+54 silly lockFile 30b0b3fb-ects-kanban-app-node-modules-alt tar:///Users/cek/Documents/Projects/kanban_app/node_modules/alt
+55 verbose lock tar:///Users/cek/Documents/Projects/kanban_app/node_modules/alt /Users/cek/.npm/30b0b3fb-ects-kanban-app-node-modules-alt.lock
+56 silly lockFile 7adb5446-s-cek-npm-alt-0-18-1-package-tgz tar:///Users/cek/.npm/alt/0.18.1/package.tgz
+57 verbose lock tar:///Users/cek/.npm/alt/0.18.1/package.tgz /Users/cek/.npm/7adb5446-s-cek-npm-alt-0-18-1-package-tgz.lock
+58 silly gunzTarPerm modes [ '755', '644' ]
+59 silly gunzTarPerm extractEntry package.json
+60 silly gunzTarPerm extractEntry README.md
+61 silly gunzTarPerm extractEntry CHANGELOG.md
+62 silly gunzTarPerm extractEntry dist/alt-with-runtime.js
+63 silly gunzTarPerm extractEntry dist/alt.js
+64 silly gunzTarPerm extractEntry dist/alt.min.js
+65 silly gunzTarPerm extractEntry docs/lifecycleListeners.md
+66 silly gunzTarPerm extractEntry docs/actions.md
+67 silly gunzTarPerm extractEntry docs/async.md
+68 silly gunzTarPerm extractEntry docs/bootstrap.md
+69 silly gunzTarPerm extractEntry docs/components/altContainer.md
+70 silly gunzTarPerm extractEntry docs/createActions.md
+71 silly gunzTarPerm extractEntry docs/createStore.md
+72 silly gunzTarPerm extractEntry docs/errors.md
+73 silly gunzTarPerm extractEntry docs/flush.md
+74 silly gunzTarPerm extractEntry docs/index.md
+75 silly gunzTarPerm extractEntry docs/altInstances.md
+76 silly gunzTarPerm extractEntry docs/prepare.md
+77 silly gunzTarPerm extractEntry docs/recycle.md
+78 silly gunzTarPerm extractEntry docs/rollback.md
+79 silly gunzTarPerm extractEntry docs/serialization.md
+80 silly gunzTarPerm extractEntry docs/stores.md
+81 silly gunzTarPerm extractEntry docs/takeSnapshot.md
+82 silly gunzTarPerm extractEntry docs/testing/actions.md
+83 silly gunzTarPerm extractEntry docs/testing/stores.md
+84 silly gunzTarPerm extractEntry docs/typescript.md
+85 silly gunzTarPerm extractEntry docs/utils/hotReload.md
+86 silly gunzTarPerm extractEntry docs/utils/immutable.md
+87 silly gunzTarPerm extractEntry guides/es5/index.md
+88 silly gunzTarPerm extractEntry guides/getting-started/actions.md
+89 silly gunzTarPerm extractEntry guides/getting-started/async.md
+90 silly gunzTarPerm extractEntry guides/getting-started/container-components.md
+91 silly gunzTarPerm extractEntry guides/getting-started/index.md
+92 silly gunzTarPerm extractEntry guides/getting-started/store.md
+93 silly gunzTarPerm extractEntry guides/getting-started/view.md
+94 silly gunzTarPerm extractEntry guides/getting-started/wait-for.md
+95 silly gunzTarPerm extractEntry lib/functions.js
+96 silly gunzTarPerm extractEntry lib/index.js
+97 silly gunzTarPerm extractEntry lib/actions/index.js
+98 silly gunzTarPerm extractEntry lib/store/AltStore.js
+99 silly gunzTarPerm extractEntry lib/store/StoreMixin.js
+100 silly gunzTarPerm extractEntry lib/store/index.js
+101 silly gunzTarPerm extractEntry lib/utils/AltUtils.js
+102 silly gunzTarPerm extractEntry lib/utils/StateFunctions.js
+103 silly gunzTarPerm extractEntry typings/alt/alt-tests.ts
+104 silly gunzTarPerm extractEntry typings/alt/alt.d.ts
+105 silly gunzTarPerm extractEntry scripts/this-dispatch-to-return.js
+106 silly gunzTarPerm extractEntry src/functions.js
+107 silly gunzTarPerm extractEntry src/index.js
+108 silly gunzTarPerm extractEntry src/actions/index.js
+109 silly gunzTarPerm extractEntry src/store/AltStore.js
+110 silly gunzTarPerm extractEntry src/store/StoreMixin.js
+111 silly gunzTarPerm extractEntry src/store/index.js
+112 silly gunzTarPerm extractEntry src/utils/AltUtils.js
+113 silly gunzTarPerm extractEntry src/utils/StateFunctions.js
+114 silly lockFile 30b0b3fb-ects-kanban-app-node-modules-alt tar:///Users/cek/Documents/Projects/kanban_app/node_modules/alt
+115 silly lockFile 30b0b3fb-ects-kanban-app-node-modules-alt tar:///Users/cek/Documents/Projects/kanban_app/node_modules/alt
+116 silly lockFile 7adb5446-s-cek-npm-alt-0-18-1-package-tgz tar:///Users/cek/.npm/alt/0.18.1/package.tgz
+117 silly lockFile 7adb5446-s-cek-npm-alt-0-18-1-package-tgz tar:///Users/cek/.npm/alt/0.18.1/package.tgz
+118 info preinstall alt@0.18.1
+119 verbose readDependencies using package.json deps
+120 verbose readDependencies using package.json deps
+121 verbose cache add [ 'flux@2.0.3', null ]
+122 verbose cache add name=undefined spec="flux@2.0.3" args=["flux@2.0.3",null]
+123 verbose parsed url { protocol: null,
+123 verbose parsed url   slashes: null,
+123 verbose parsed url   auth: null,
+123 verbose parsed url   host: null,
+123 verbose parsed url   port: null,
+123 verbose parsed url   hostname: null,
+123 verbose parsed url   hash: null,
+123 verbose parsed url   search: null,
+123 verbose parsed url   query: null,
+123 verbose parsed url   pathname: 'flux@2.0.3',
+123 verbose parsed url   path: 'flux@2.0.3',
+123 verbose parsed url   href: 'flux@2.0.3' }
+124 verbose cache add [ 'is-promise@2.1.0', null ]
+125 verbose cache add name=undefined spec="is-promise@2.1.0" args=["is-promise@2.1.0",null]
+126 verbose parsed url { protocol: null,
+126 verbose parsed url   slashes: null,
+126 verbose parsed url   auth: null,
+126 verbose parsed url   host: null,
+126 verbose parsed url   port: null,
+126 verbose parsed url   hostname: null,
+126 verbose parsed url   hash: null,
+126 verbose parsed url   search: null,
+126 verbose parsed url   query: null,
+126 verbose parsed url   pathname: 'is-promise@2.1.0',
+126 verbose parsed url   path: 'is-promise@2.1.0',
+126 verbose parsed url   href: 'is-promise@2.1.0' }
+127 verbose cache add [ 'transmitter@1.1.0', null ]
+128 verbose cache add name=undefined spec="transmitter@1.1.0" args=["transmitter@1.1.0",null]
+129 verbose parsed url { protocol: null,
+129 verbose parsed url   slashes: null,
+129 verbose parsed url   auth: null,
+129 verbose parsed url   host: null,
+129 verbose parsed url   port: null,
+129 verbose parsed url   hostname: null,
+129 verbose parsed url   hash: null,
+129 verbose parsed url   search: null,
+129 verbose parsed url   query: null,
+129 verbose parsed url   pathname: 'transmitter@1.1.0',
+129 verbose parsed url   path: 'transmitter@1.1.0',
+129 verbose parsed url   href: 'transmitter@1.1.0' }
+130 verbose cache add name="flux" spec="2.0.3" args=["flux","2.0.3"]
+131 verbose parsed url { protocol: null,
+131 verbose parsed url   slashes: null,
+131 verbose parsed url   auth: null,
+131 verbose parsed url   host: null,
+131 verbose parsed url   port: null,
+131 verbose parsed url   hostname: null,
+131 verbose parsed url   hash: null,
+131 verbose parsed url   search: null,
+131 verbose parsed url   query: null,
+131 verbose parsed url   pathname: '2.0.3',
+131 verbose parsed url   path: '2.0.3',
+131 verbose parsed url   href: '2.0.3' }
+132 verbose addNamed [ 'flux', '2.0.3' ]
+133 verbose addNamed [ '2.0.3', '2.0.3' ]
+134 silly lockFile 65d9a3b2-flux-2-0-3 flux@2.0.3
+135 verbose lock flux@2.0.3 /Users/cek/.npm/65d9a3b2-flux-2-0-3.lock
+136 verbose cache add name="is-promise" spec="2.1.0" args=["is-promise","2.1.0"]
+137 verbose parsed url { protocol: null,
+137 verbose parsed url   slashes: null,
+137 verbose parsed url   auth: null,
+137 verbose parsed url   host: null,
+137 verbose parsed url   port: null,
+137 verbose parsed url   hostname: null,
+137 verbose parsed url   hash: null,
+137 verbose parsed url   search: null,
+137 verbose parsed url   query: null,
+137 verbose parsed url   pathname: '2.1.0',
+137 verbose parsed url   path: '2.1.0',
+137 verbose parsed url   href: '2.1.0' }
+138 verbose addNamed [ 'is-promise', '2.1.0' ]
+139 verbose addNamed [ '2.1.0', '2.1.0' ]
+140 silly lockFile 41729a5a-is-promise-2-1-0 is-promise@2.1.0
+141 verbose lock is-promise@2.1.0 /Users/cek/.npm/41729a5a-is-promise-2-1-0.lock
+142 verbose cache add name="transmitter" spec="1.1.0" args=["transmitter","1.1.0"]
+143 verbose parsed url { protocol: null,
+143 verbose parsed url   slashes: null,
+143 verbose parsed url   auth: null,
+143 verbose parsed url   host: null,
+143 verbose parsed url   port: null,
+143 verbose parsed url   hostname: null,
+143 verbose parsed url   hash: null,
+143 verbose parsed url   search: null,
+143 verbose parsed url   query: null,
+143 verbose parsed url   pathname: '1.1.0',
+143 verbose parsed url   path: '1.1.0',
+143 verbose parsed url   href: '1.1.0' }
+144 verbose addNamed [ 'transmitter', '1.1.0' ]
+145 verbose addNamed [ '1.1.0', '1.1.0' ]
+146 silly lockFile d0fb4941-transmitter-1-1-0 transmitter@1.1.0
+147 verbose lock transmitter@1.1.0 /Users/cek/.npm/d0fb4941-transmitter-1-1-0.lock
+148 verbose request where is /flux
+149 verbose request registry https://registry.npmjs.org/
+150 verbose url raw /flux
+151 verbose url resolving [ 'https://registry.npmjs.org/', './flux' ]
+152 verbose url resolved https://registry.npmjs.org/flux
+153 verbose request where is https://registry.npmjs.org/flux
+154 info trying registry request attempt 1 at 09:01:21
+155 http GET https://registry.npmjs.org/flux
+156 verbose request where is /transmitter
+157 verbose request registry https://registry.npmjs.org/
+158 verbose url raw /transmitter
+159 verbose url resolving [ 'https://registry.npmjs.org/', './transmitter' ]
+160 verbose url resolved https://registry.npmjs.org/transmitter
+161 verbose request where is https://registry.npmjs.org/transmitter
+162 info trying registry request attempt 1 at 09:01:21
+163 http GET https://registry.npmjs.org/transmitter
+164 verbose request where is /is-promise
+165 verbose request registry https://registry.npmjs.org/
+166 verbose url raw /is-promise
+167 verbose url resolving [ 'https://registry.npmjs.org/', './is-promise' ]
+168 verbose url resolved https://registry.npmjs.org/is-promise
+169 verbose request where is https://registry.npmjs.org/is-promise
+170 info trying registry request attempt 1 at 09:01:21
+171 verbose etag "21QV35HTZ158AA7VOMSUPE2NP"
+172 http GET https://registry.npmjs.org/is-promise
+173 http 200 https://registry.npmjs.org/flux
+174 silly registry.get cb [ 200,
+174 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+174 silly registry.get     etag: '"5K63PUMSAKPBXBCN5SGXF42QV"',
+174 silly registry.get     'content-type': 'application/json',
+174 silly registry.get     'cache-control': 'max-age=300',
+174 silly registry.get     'content-length': '21463',
+174 silly registry.get     'accept-ranges': 'bytes',
+174 silly registry.get     date: 'Wed, 06 Jan 2016 14:01:21 GMT',
+174 silly registry.get     via: '1.1 varnish',
+174 silly registry.get     age: '230',
+174 silly registry.get     connection: 'keep-alive',
+174 silly registry.get     'x-served-by': 'cache-iad2132-IAD',
+174 silly registry.get     'x-cache': 'HIT',
+174 silly registry.get     'x-cache-hits': '1',
+174 silly registry.get     'x-timer': 'S1452088881.235293,VS0,VE0',
+174 silly registry.get     vary: 'Accept' } ]
+175 http 304 https://registry.npmjs.org/is-promise
+176 silly registry.get cb [ 304,
+176 silly registry.get   { date: 'Wed, 06 Jan 2016 14:01:21 GMT',
+176 silly registry.get     via: '1.1 varnish',
+176 silly registry.get     'cache-control': 'max-age=300',
+176 silly registry.get     etag: '"21QV35HTZ158AA7VOMSUPE2NP"',
+176 silly registry.get     age: '241',
+176 silly registry.get     connection: 'keep-alive',
+176 silly registry.get     'x-served-by': 'cache-iad2129-IAD',
+176 silly registry.get     'x-cache': 'HIT',
+176 silly registry.get     'x-cache-hits': '1',
+176 silly registry.get     'x-timer': 'S1452088881.250410,VS0,VE0',
+176 silly registry.get     vary: 'Accept' } ]
+177 verbose etag https://registry.npmjs.org/is-promise from cache
+178 http 200 https://registry.npmjs.org/transmitter
+179 silly registry.get cb [ 200,
+179 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+179 silly registry.get     etag: '"6IPR47YT9NW286CC5ZIEIPC55"',
+179 silly registry.get     'content-type': 'application/json',
+179 silly registry.get     'cache-control': 'max-age=300',
+179 silly registry.get     'content-length': '5715',
+179 silly registry.get     'accept-ranges': 'bytes',
+179 silly registry.get     date: 'Wed, 06 Jan 2016 14:01:21 GMT',
+179 silly registry.get     via: '1.1 varnish',
+179 silly registry.get     age: '0',
+179 silly registry.get     connection: 'keep-alive',
+179 silly registry.get     'x-served-by': 'cache-iad2140-IAD',
+179 silly registry.get     'x-cache': 'HIT',
+179 silly registry.get     'x-cache-hits': '1',
+179 silly registry.get     'x-timer': 'S1452088881.239078,VS0,VE14',
+179 silly registry.get     vary: 'Accept' } ]
+180 silly lockFile c2a490e7-ry-npmjs-org-flux-flux-2-0-3-tgz https://registry.npmjs.org/flux/-/flux-2.0.3.tgz
+181 verbose lock https://registry.npmjs.org/flux/-/flux-2.0.3.tgz /Users/cek/.npm/c2a490e7-ry-npmjs-org-flux-flux-2-0-3-tgz.lock
+182 verbose addRemoteTarball [ 'https://registry.npmjs.org/flux/-/flux-2.0.3.tgz',
+182 verbose addRemoteTarball   '787e1aedffb34a322a60b49c57a2d23856a6de27' ]
+183 silly lockFile bc7dae62-ransmitter-transmitter-1-1-0-tgz https://registry.npmjs.org/transmitter/-/transmitter-1.1.0.tgz
+184 verbose lock https://registry.npmjs.org/transmitter/-/transmitter-1.1.0.tgz /Users/cek/.npm/bc7dae62-ransmitter-transmitter-1-1-0-tgz.lock
+185 info retry fetch attempt 1 at 09:01:21
+186 verbose fetch to= /var/folders/x0/7x68ytz12gz_tfxc5yr9j5lm0000gn/T/npm-88811-xrIlvVyP/registry.npmjs.org/flux/-/flux-2.0.3.tgz
+187 http GET https://registry.npmjs.org/flux/-/flux-2.0.3.tgz
+188 silly lockFile 41729a5a-is-promise-2-1-0 is-promise@2.1.0
+189 silly lockFile 41729a5a-is-promise-2-1-0 is-promise@2.1.0
+190 verbose addRemoteTarball [ 'https://registry.npmjs.org/transmitter/-/transmitter-1.1.0.tgz',
+190 verbose addRemoteTarball   '0b26b7dd123150ae12e3a8700e01149ec81a463e' ]
+191 info retry fetch attempt 1 at 09:01:21
+192 verbose fetch to= /var/folders/x0/7x68ytz12gz_tfxc5yr9j5lm0000gn/T/npm-88811-xrIlvVyP/registry.npmjs.org/transmitter/-/transmitter-1.1.0.tgz
+193 http GET https://registry.npmjs.org/transmitter/-/transmitter-1.1.0.tgz
+194 http 200 https://registry.npmjs.org/flux/-/flux-2.0.3.tgz
+195 http 200 https://registry.npmjs.org/transmitter/-/transmitter-1.1.0.tgz
+196 silly lockFile c2a490e7-ry-npmjs-org-flux-flux-2-0-3-tgz https://registry.npmjs.org/flux/-/flux-2.0.3.tgz
+197 silly lockFile c2a490e7-ry-npmjs-org-flux-flux-2-0-3-tgz https://registry.npmjs.org/flux/-/flux-2.0.3.tgz
+198 silly lockFile bc7dae62-ransmitter-transmitter-1-1-0-tgz https://registry.npmjs.org/transmitter/-/transmitter-1.1.0.tgz
+199 silly lockFile bc7dae62-ransmitter-transmitter-1-1-0-tgz https://registry.npmjs.org/transmitter/-/transmitter-1.1.0.tgz
+200 silly lockFile 65d9a3b2-flux-2-0-3 flux@2.0.3
+201 silly lockFile 65d9a3b2-flux-2-0-3 flux@2.0.3
+202 silly lockFile d0fb4941-transmitter-1-1-0 transmitter@1.1.0
+203 silly lockFile d0fb4941-transmitter-1-1-0 transmitter@1.1.0
+204 silly resolved [ { name: 'is-promise',
+204 silly resolved     version: '2.1.0',
+204 silly resolved     description: 'Test whether an object looks like a promises-a+ promise',
+204 silly resolved     main: 'index.js',
+204 silly resolved     scripts: { test: 'mocha -R spec' },
+204 silly resolved     repository:
+204 silly resolved      { type: 'git',
+204 silly resolved        url: 'git+https://github.com/then/is-promise.git' },
+204 silly resolved     author: { name: 'ForbesLindesay' },
+204 silly resolved     license: 'MIT',
+204 silly resolved     devDependencies: { 'better-assert': '~0.1.0', mocha: '~1.7.4' },
+204 silly resolved     gitHead: '056f8ac12eed91886ac4f0f7d872a176f6ed698f',
+204 silly resolved     bugs: { url: 'https://github.com/then/is-promise/issues' },
+204 silly resolved     homepage: 'https://github.com/then/is-promise',
+204 silly resolved     _id: 'is-promise@2.1.0',
+204 silly resolved     _shasum: '79a2a9ece7f096e80f36d2b2f3bc16c1ff4bf3fa',
+204 silly resolved     _from: 'is-promise@2.1.0',
+204 silly resolved     _npmVersion: '2.7.1',
+204 silly resolved     _nodeVersion: '1.6.2',
+204 silly resolved     _npmUser: { name: 'forbeslindesay', email: 'forbes@lindesay.co.uk' },
+204 silly resolved     maintainers: [ [Object] ],
+204 silly resolved     dist:
+204 silly resolved      { shasum: '79a2a9ece7f096e80f36d2b2f3bc16c1ff4bf3fa',
+204 silly resolved        tarball: 'http://registry.npmjs.org/is-promise/-/is-promise-2.1.0.tgz' },
+204 silly resolved     directories: {},
+204 silly resolved     _resolved: 'https://registry.npmjs.org/is-promise/-/is-promise-2.1.0.tgz',
+204 silly resolved     readme: 'ERROR: No README data found!' },
+204 silly resolved   { name: 'flux',
+204 silly resolved     version: '2.0.3',
+204 silly resolved     description: 'An application architecture based on a unidirectional data flow',
+204 silly resolved     keywords: [ 'flux', 'react', 'facebook', 'dispatcher' ],
+204 silly resolved     homepage: 'http://facebook.github.io/flux/',
+204 silly resolved     bugs: { url: 'https://github.com/facebook/flux/issues' },
+204 silly resolved     files: [ 'index.js', 'lib/', 'LICENSE', 'PATENTS' ],
+204 silly resolved     main: 'index.js',
+204 silly resolved     scripts: { prepublish: 'gulp publish', test: 'jest' },
+204 silly resolved     jest:
+204 silly resolved      { rootDir: 'src',
+204 silly resolved        scriptPreprocessor: '../jest-preprocessor.js' },
+204 silly resolved     repository: { type: 'git', url: 'https://github.com/facebook/flux' },
+204 silly resolved     author: { name: 'Facebook' },
+204 silly resolved     contributors: [ [Object], [Object], [Object] ],
+204 silly resolved     license: 'BSD',
+204 silly resolved     devDependencies:
+204 silly resolved      { browserify: '^9.0.3',
+204 silly resolved        del: '^1.1.1',
+204 silly resolved        gulp: '^3.8.11',
+204 silly resolved        'gulp-clean': '^0.3.1',
+204 silly resolved        'gulp-react': '^2.0.0',
+204 silly resolved        'gulp-replace': '^0.5.3',
+204 silly resolved        'jest-cli': '^0.4.0',
+204 silly resolved        'react-tools': '^0.12.0',
+204 silly resolved        'run-sequence': '^1.0.2',
+204 silly resolved        'vinyl-source-stream': '^1.0.0' },
+204 silly resolved     gitHead: '44684a9ad8954437040130bf2d1e02e2b776b114',
+204 silly resolved     _id: 'flux@2.0.3',
+204 silly resolved     _shasum: '787e1aedffb34a322a60b49c57a2d23856a6de27',
+204 silly resolved     _from: 'flux@2.0.3',
+204 silly resolved     _npmVersion: '1.4.14',
+204 silly resolved     _npmUser: { name: 'fisherwebdev', email: 'fisherwebdev@gmail.com' },
+204 silly resolved     maintainers: [ [Object] ],
+204 silly resolved     dist:
+204 silly resolved      { shasum: '787e1aedffb34a322a60b49c57a2d23856a6de27',
+204 silly resolved        tarball: 'http://registry.npmjs.org/flux/-/flux-2.0.3.tgz' },
+204 silly resolved     directories: {},
+204 silly resolved     _resolved: 'https://registry.npmjs.org/flux/-/flux-2.0.3.tgz' },
+204 silly resolved   { name: 'transmitter',
+204 silly resolved     version: '1.1.0',
+204 silly resolved     description: '> Dead simple pub-sub',
+204 silly resolved     main: 'dist/transmitter.js',
+204 silly resolved     scripts:
+204 silly resolved      { build: 'babel src --out-dir dist',
+204 silly resolved        coverage: 'istanbul cover node_modules/mocha/bin/_mocha -- -u exports -R tap --require ./test/babel test/*-test.js',
+204 silly resolved        prepublish: 'npm run build',
+204 silly resolved        test: 'npm run tests-node',
+204 silly resolved        'tests-node': 'mocha -u exports -R nyan --require ./test/babel test/*-test.js' },
+204 silly resolved     keywords:
+204 silly resolved      [ 'transmit',
+204 silly resolved        'pubsub',
+204 silly resolved        'pub',
+204 silly resolved        'sub',
+204 silly resolved        'eventemitter',
+204 silly resolved        'observable',
+204 silly resolved        'subscribe' ],
+204 silly resolved     author: { name: 'Josh Perez', email: 'josh@goatslacker.com' },
+204 silly resolved     repository:
+204 silly resolved      { type: 'git',
+204 silly resolved        url: 'https://github.com/goatslacker/transmitter.git' },
+204 silly resolved     license: 'MIT',
+204 silly resolved     devDependencies:
+204 silly resolved      { babel: '5.4.3',
+204 silly resolved        chai: '2.3.0',
+204 silly resolved        coveralls: '2.11.2',
+204 silly resolved        istanbul: '0.3.14',
+204 silly resolved        mocha: '2.2.5',
+204 silly resolved        sinon: '1.14.1' },
+204 silly resolved     gitHead: '6ff68dcb99a4708744cf2b13ca1d18c61061f1fd',
+204 silly resolved     bugs: { url: 'https://github.com/goatslacker/transmitter/issues' },
+204 silly resolved     homepage: 'https://github.com/goatslacker/transmitter',
+204 silly resolved     _id: 'transmitter@1.1.0',
+204 silly resolved     _shasum: '0b26b7dd123150ae12e3a8700e01149ec81a463e',
+204 silly resolved     _from: 'transmitter@1.1.0',
+204 silly resolved     _npmVersion: '2.14.2',
+204 silly resolved     _nodeVersion: '4.0.0',
+204 silly resolved     _npmUser: { name: 'goatslacker', email: 'josh@goatslacker.com' },
+204 silly resolved     maintainers: [ [Object] ],
+204 silly resolved     dist:
+204 silly resolved      { shasum: '0b26b7dd123150ae12e3a8700e01149ec81a463e',
+204 silly resolved        tarball: 'http://registry.npmjs.org/transmitter/-/transmitter-1.1.0.tgz' },
+204 silly resolved     directories: {},
+204 silly resolved     _resolved: 'https://registry.npmjs.org/transmitter/-/transmitter-1.1.0.tgz' } ]
+205 info install is-promise@2.1.0 into /Users/cek/Documents/Projects/kanban_app/node_modules/alt
+206 info install flux@2.0.3 into /Users/cek/Documents/Projects/kanban_app/node_modules/alt
+207 info install transmitter@1.1.0 into /Users/cek/Documents/Projects/kanban_app/node_modules/alt
+208 info installOne is-promise@2.1.0
+209 info installOne flux@2.0.3
+210 info installOne transmitter@1.1.0
+211 verbose node_modules/alt/node_modules/is-promise unbuild
+212 verbose tar unpack /Users/cek/.npm/is-promise/2.1.0/package.tgz
+213 silly lockFile 6f17e50e-ules-alt-node-modules-is-promise tar:///Users/cek/Documents/Projects/kanban_app/node_modules/alt/node_modules/is-promise
+214 verbose lock tar:///Users/cek/Documents/Projects/kanban_app/node_modules/alt/node_modules/is-promise /Users/cek/.npm/6f17e50e-ules-alt-node-modules-is-promise.lock
+215 silly lockFile f4094a9e-npm-is-promise-2-1-0-package-tgz tar:///Users/cek/.npm/is-promise/2.1.0/package.tgz
+216 verbose lock tar:///Users/cek/.npm/is-promise/2.1.0/package.tgz /Users/cek/.npm/f4094a9e-npm-is-promise-2-1-0-package-tgz.lock
+217 verbose node_modules/alt/node_modules/flux unbuild
+218 verbose node_modules/alt/node_modules/transmitter unbuild
+219 silly gunzTarPerm modes [ '755', '644' ]
+220 verbose tar unpack /Users/cek/.npm/flux/2.0.3/package.tgz
+221 silly lockFile a07be383-de-modules-alt-node-modules-flux tar:///Users/cek/Documents/Projects/kanban_app/node_modules/alt/node_modules/flux
+222 verbose lock tar:///Users/cek/Documents/Projects/kanban_app/node_modules/alt/node_modules/flux /Users/cek/.npm/a07be383-de-modules-alt-node-modules-flux.lock
+223 silly lockFile 29e58c46-s-cek-npm-flux-2-0-3-package-tgz tar:///Users/cek/.npm/flux/2.0.3/package.tgz
+224 verbose lock tar:///Users/cek/.npm/flux/2.0.3/package.tgz /Users/cek/.npm/29e58c46-s-cek-npm-flux-2-0-3-package-tgz.lock
+225 verbose tar unpack /Users/cek/.npm/transmitter/1.1.0/package.tgz
+226 silly lockFile 14031897-les-alt-node-modules-transmitter tar:///Users/cek/Documents/Projects/kanban_app/node_modules/alt/node_modules/transmitter
+227 verbose lock tar:///Users/cek/Documents/Projects/kanban_app/node_modules/alt/node_modules/transmitter /Users/cek/.npm/14031897-les-alt-node-modules-transmitter.lock
+228 silly lockFile c1ae05bc-pm-transmitter-1-1-0-package-tgz tar:///Users/cek/.npm/transmitter/1.1.0/package.tgz
+229 verbose lock tar:///Users/cek/.npm/transmitter/1.1.0/package.tgz /Users/cek/.npm/c1ae05bc-pm-transmitter-1-1-0-package-tgz.lock
+230 silly gunzTarPerm modes [ '755', '644' ]
+231 silly gunzTarPerm modes [ '755', '644' ]
+232 silly gunzTarPerm extractEntry package.json
+233 silly gunzTarPerm extractEntry .npmignore
+234 silly gunzTarPerm extractEntry LICENSE
+235 silly gunzTarPerm extractEntry package.json
+236 silly gunzTarPerm extractEntry package.json
+237 silly gunzTarPerm extractEntry README.md
+238 silly gunzTarPerm extractEntry LICENSE
+239 silly gunzTarPerm extractEntry index.js
+240 silly gunzTarPerm extractEntry PATENTS
+241 silly gunzTarPerm extractEntry lib/Dispatcher.js
+242 silly gunzTarPerm extractEntry lib/invariant.js
+243 silly gunzTarPerm extractEntry .npmignore
+244 silly gunzTarPerm extractEntry README.md
+245 silly gunzTarPerm extractEntry index.js
+246 silly gunzTarPerm extractEntry .travis.yml
+247 silly gunzTarPerm extractEntry .travis.yml
+248 silly gunzTarPerm extractEntry dist/transmitter.js
+249 silly gunzTarPerm extractEntry readme.md
+250 silly gunzTarPerm extractEntry src/transmitter.js
+251 silly gunzTarPerm extractEntry test/babel.js
+252 silly gunzTarPerm extractEntry test/index-test.js
+253 silly lockFile 6f17e50e-ules-alt-node-modules-is-promise tar:///Users/cek/Documents/Projects/kanban_app/node_modules/alt/node_modules/is-promise
+254 silly lockFile 6f17e50e-ules-alt-node-modules-is-promise tar:///Users/cek/Documents/Projects/kanban_app/node_modules/alt/node_modules/is-promise
+255 silly lockFile f4094a9e-npm-is-promise-2-1-0-package-tgz tar:///Users/cek/.npm/is-promise/2.1.0/package.tgz
+256 silly lockFile f4094a9e-npm-is-promise-2-1-0-package-tgz tar:///Users/cek/.npm/is-promise/2.1.0/package.tgz
+257 info preinstall is-promise@2.1.0
+258 verbose readDependencies using package.json deps
+259 verbose readDependencies using package.json deps
+260 silly resolved []
+261 verbose about to build /Users/cek/Documents/Projects/kanban_app/node_modules/alt/node_modules/is-promise
+262 info build /Users/cek/Documents/Projects/kanban_app/node_modules/alt/node_modules/is-promise
+263 verbose linkStuff [ false,
+263 verbose linkStuff   false,
+263 verbose linkStuff   false,
+263 verbose linkStuff   '/Users/cek/Documents/Projects/kanban_app/node_modules/alt/node_modules' ]
+264 info linkStuff is-promise@2.1.0
+265 verbose linkBins is-promise@2.1.0
+266 verbose linkMans is-promise@2.1.0
+267 verbose rebuildBundles is-promise@2.1.0
+268 info install is-promise@2.1.0
+269 info postinstall is-promise@2.1.0
+270 silly lockFile 14031897-les-alt-node-modules-transmitter tar:///Users/cek/Documents/Projects/kanban_app/node_modules/alt/node_modules/transmitter
+271 silly lockFile 14031897-les-alt-node-modules-transmitter tar:///Users/cek/Documents/Projects/kanban_app/node_modules/alt/node_modules/transmitter
+272 silly lockFile c1ae05bc-pm-transmitter-1-1-0-package-tgz tar:///Users/cek/.npm/transmitter/1.1.0/package.tgz
+273 silly lockFile c1ae05bc-pm-transmitter-1-1-0-package-tgz tar:///Users/cek/.npm/transmitter/1.1.0/package.tgz
+274 info preinstall transmitter@1.1.0
+275 silly lockFile a07be383-de-modules-alt-node-modules-flux tar:///Users/cek/Documents/Projects/kanban_app/node_modules/alt/node_modules/flux
+276 silly lockFile a07be383-de-modules-alt-node-modules-flux tar:///Users/cek/Documents/Projects/kanban_app/node_modules/alt/node_modules/flux
+277 verbose readDependencies using package.json deps
+278 silly lockFile 29e58c46-s-cek-npm-flux-2-0-3-package-tgz tar:///Users/cek/.npm/flux/2.0.3/package.tgz
+279 silly lockFile 29e58c46-s-cek-npm-flux-2-0-3-package-tgz tar:///Users/cek/.npm/flux/2.0.3/package.tgz
+280 verbose readDependencies using package.json deps
+281 silly resolved []
+282 verbose about to build /Users/cek/Documents/Projects/kanban_app/node_modules/alt/node_modules/transmitter
+283 info build /Users/cek/Documents/Projects/kanban_app/node_modules/alt/node_modules/transmitter
+284 verbose linkStuff [ false,
+284 verbose linkStuff   false,
+284 verbose linkStuff   false,
+284 verbose linkStuff   '/Users/cek/Documents/Projects/kanban_app/node_modules/alt/node_modules' ]
+285 info linkStuff transmitter@1.1.0
+286 verbose linkBins transmitter@1.1.0
+287 verbose linkMans transmitter@1.1.0
+288 verbose rebuildBundles transmitter@1.1.0
+289 info install transmitter@1.1.0
+290 info postinstall transmitter@1.1.0
+291 info preinstall flux@2.0.3
+292 verbose readDependencies using package.json deps
+293 verbose readDependencies using package.json deps
+294 silly resolved []
+295 verbose about to build /Users/cek/Documents/Projects/kanban_app/node_modules/alt/node_modules/flux
+296 info build /Users/cek/Documents/Projects/kanban_app/node_modules/alt/node_modules/flux
+297 verbose linkStuff [ false,
+297 verbose linkStuff   false,
+297 verbose linkStuff   false,
+297 verbose linkStuff   '/Users/cek/Documents/Projects/kanban_app/node_modules/alt/node_modules' ]
+298 info linkStuff flux@2.0.3
+299 verbose linkBins flux@2.0.3
+300 verbose linkMans flux@2.0.3
+301 verbose rebuildBundles flux@2.0.3
+302 info install flux@2.0.3
+303 info postinstall flux@2.0.3
+304 verbose about to build /Users/cek/Documents/Projects/kanban_app/node_modules/alt
+305 info build /Users/cek/Documents/Projects/kanban_app/node_modules/alt
+306 verbose linkStuff [ false,
+306 verbose linkStuff   false,
+306 verbose linkStuff   false,
+306 verbose linkStuff   '/Users/cek/Documents/Projects/kanban_app/node_modules' ]
+307 info linkStuff alt@0.18.1
+308 verbose linkBins alt@0.18.1
+309 verbose linkMans alt@0.18.1
+310 verbose rebuildBundles alt@0.18.1
+311 verbose rebuildBundles [ 'flux', 'is-promise', 'transmitter' ]
+312 info install alt@0.18.1
+313 info postinstall alt@0.18.1
+314 verbose saving { alt: '^0.18.1' }
+315 error Error: EACCES, open '/Users/cek/Documents/Projects/kanban_app/package.json'
+315 error  { [Error: EACCES, open '/Users/cek/Documents/Projects/kanban_app/package.json']
+315 error   errno: 3,
+315 error   code: 'EACCES',
+315 error   path: '/Users/cek/Documents/Projects/kanban_app/package.json' }
+316 error Please try running this command again as root/Administrator.
+317 error System Darwin 13.4.0
+318 error command "/Users/cek/.nvm/v0.10.32/bin/node" "/Users/cek/.nvm/v0.10.32/bin/npm" "i" "alt" "--save"
+319 error cwd /Users/cek/Documents/Projects/kanban_app
+320 error node -v v0.10.32
+321 error npm -v 1.4.28
+322 error path /Users/cek/Documents/Projects/kanban_app/package.json
+323 error code EACCES
+324 error errno 3
+325 error stack Error: EACCES, open '/Users/cek/Documents/Projects/kanban_app/package.json'
+326 verbose exit [ 3, true ]
